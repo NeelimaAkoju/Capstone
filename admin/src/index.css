@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+select, input, textarea {
+    border: 1px solid #b5a999; /* Subtle brown-gray */
+    outline-color: #a68967; /* Warm brown for focus */
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #f4f0e9; /* Soft, warm beige */
+    border-color: #a68967; /* Consistent warm brown */
+}
